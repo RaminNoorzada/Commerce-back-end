@@ -1,5 +1,5 @@
 {
-  "name": "ramin-commerce-back-end",
+  "name": "commerce-back-end",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "seed": "node develop/seeds/index.js"
   },
   "repository": {
     "type": "git",
